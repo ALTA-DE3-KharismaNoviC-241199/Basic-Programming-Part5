@@ -5,7 +5,7 @@ def prime_number(number):
         return True
     elif number % 2 == 0 or number % 3 ==  0:
         return False
-    elif number <= 5:
+    elif number <= 5 :
         return True
     else:
         for i in range(5,9):
